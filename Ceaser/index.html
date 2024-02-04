@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caesar's Cipher</title>
+    <link rel="stylesheet" href="/Ceaser/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Caesar's Cipher</h2>
+        <label for="input">Input Text:</label>
+        <textarea id="input" rows="4" cols="50"></textarea><br>
+        <label for="key">Key:</label>
+        <input type="number" id="key"><br>
+        <label for="action">Choose action:</label>
+        <select id="action">
+            <option value="encrypt">Encrypt</option>
+            <option value="decrypt">Decrypt</option>
+        </select><br>
+        <button onclick="process()">Process</button><br>
+        <label for="output">Output:</label>
+        <textarea id="output" rows="4" cols="50" readonly></textarea>
+    </div>
+
+    <script src="/Ceaser/scripts.js"></script>
+</body>
+</html>

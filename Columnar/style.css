@@ -1,0 +1,24 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1, h2 {
+    font-family: Arial, sans-serif;
+  }
+  
+  input[type="text"] {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  #encryptedText, #decryptedText {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
